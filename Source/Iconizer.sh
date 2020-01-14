@@ -106,7 +106,7 @@ if [ -z ${INPUT_PATH} ]; then
     echo "Iconizer: No font file was found at path '${INPUT_PATH}'. Using FontAwesome as default font."
 
     # Uses FontAwesome as default
-    init 'Fonts/FontAwesome/FontAwesome.otf'
+    init 'Fonts/iconfont.ttf'
 elif [ -z ${CUSTOM_NAME} ]; then
     init ${INPUT_PATH}
 else
